@@ -1,4 +1,3 @@
-import './App.css';
 import MyProfile from './Profil/profil';
 import myImage from './img/profile.jpg'
 
