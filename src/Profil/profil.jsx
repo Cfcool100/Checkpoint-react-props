@@ -35,9 +35,9 @@ MyProfile.defaultProps ={
     bio: 'I am a full time pirate and my Goal is to become Pirate King',
     Profession: 'Pirate'
 }
-MyProfile.prototype = {
+MyProfile.propTypes = {
     fullName: PropTypes.string.isRequired,
-    bio: PropTypes.number.isRequired,
+    bio: PropTypes.string.isRequired,
     Profession: PropTypes.string.isRequired,
     children: PropTypes.element.isRequired
 }
